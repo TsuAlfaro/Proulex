@@ -1,0 +1,21 @@
+.bgNav{background-color: midnightblue;} /*!important - Cambios sobre el css de Bootstrap*/
+.nav-link:hover{color:aliceblue!important;}
+.carousel-inner{height: 80vh !important;}
+.carousel-item img{width: 100%;}
+.display-4{color: #8BBCCC;}
+.jumbo{padding: 15%;}
+.jumbo button{color: #ffffff; text-decoration: underline;}
+.fa-brands{color: white;}
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.carousel-item img{max-height: 100%; width: auto;}
+}
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 991.98px) { 
+.carousel-item img{width: auto;}
+.card{padding: 1rem !important;}
+.contPhoto{padding: 0 !important}
+.fs-4{font-size: 1rem!important;}
+}
